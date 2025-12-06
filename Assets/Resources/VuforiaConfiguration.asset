@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: AZfCfiz/////AAABmdZoIUGmS0ZDpM7o56NPIf5Eifh7nbUFltTXOmCldpCroJAwx28L1pOqGm4Hzt9xG0OOaJwuy7Ytw+NXLLGFsqDWw7gNKnYqLTTmWkK3TfoaoxDpK+wOfU/6HXqQb/dMVHLFPZ24crd71GrqM/45m7yPr8tBWnmsNBPW06ZUMhoXNy/sHLxsPE3KxMERrFoqGEOLwx8v5Hq7ioT/82CFBmIFHdqJXjcadoXUB/YPqAtQAFwrAu2OgI0cds50IUEaxgdNMmg+xApmGcFO+HUkjzrNkpdz58uOYXVywryO0fiE7rs6RDm2xHfQn4nI6pWSjE9+qlo1uhUw9noVnqtnTIKUuC19sFQ56x3gIaajuGWC
+    ufoLicenseKey: QWI3Z21qUC8vLy8vQUFBQUtIS2JsczRCVGtIWHBKYk1ER0FrdjRBcGhQMmZDOStSNnNLWnR5Z3k3R2xFejg1VUFjV1kzQndMZGZwQ1dZaWg1YlFodktVNW5xQmVSalgyZVJ3aWgrZWRCR2txbzZrUWRtTHVmL0JwQWNQcG5QU2IwMWx0VExXbzg1YmFkN05EcTNYYjdhbkpoSnhjNC9RTW9YLzkwaDFvelZ4cFpxNEdYWlZDdGFaa1hoL3JmM2hNSk9MZkR0dmNsR3BCc2NQeWsrcGRGQlJLSjVLTkQ5ekt4Nmo1dGRlMlVpaW8vMmo4U25EWkk1ZnNEaHR6c3hPU0RRalFueW05cEtCQW15L2VFTXNnMC9aZ1pZN2tpbG9Ec1VlSlVEck1PUHB5MkwvbjFvcDAyNWZUM0Z3WG05NVJ6RDFhVVZ5Ui9PWlB6VlFRdnVzdDd0YlJOYkFrZUFYZFhqSy93ek5aVU95SGxOTDRGeTZBQjJEZFVnTFY=
+    delayedInitialization: 0
+    cameraFocusModeSetting: 2
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 1
+    virtualSceneScaleFactor: 1
+    modelTargetRecoWhileExtendedTracked: 1
+    shareRecordingsInITunes: 0
+    logLevel: 0
+    version: 11.1.3
+    eulaAcceptedVersions: '{"Values":["11.1"]}'
+  database:
+    disableModelExtraction: 0
+  plugins:
+    pluginDirectory: asset://Vuforia
+  shaders:
+    depthMaskShader: {fileID: 4800000, guid: 9894afa5f3a5e4bbca625981beb1b20e, type: 3}
+    outlineShader: {fileID: 4800000, guid: 88d3b6b5cf364476ca39fcec255331b1, type: 3}
+    unlitTransparentShader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
+  runtimeResources:
+    register: {fileID: 11400000, guid: 41fc44d3a90764cc7b50f1019f2d8310, type: 2}
+  videoBackground:
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 4800000, guid: 144dfca22ac584ade9e538e24a5ddded, type: 3}
+    unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    videoBackgroundEnabled: 1
+  deviceTracker:
+    autoStartTracker: 1
+    arcoreRequirement: 1
+    autoImportArcore: 1
+    thirdPartyARCoreClientDetected: 0
+  playmode:
+    mRecordingPath: C:/Users/anash/Downloads/Telegram Desktop/IMG_7802 (2).MP4
+    playModeType: 1
+  webcam:
+    renderTextureLayer: 30
+  packageInformation:
+    ARFoundationVersion: 
